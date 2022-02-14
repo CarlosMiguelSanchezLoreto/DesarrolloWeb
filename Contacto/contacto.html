@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../BootStrap/estilos.css">
+    <link href="../BootStrap/bootstrap.min.css" rel="stylesheet">
+
+    <title>Nosotros</title>
+</head>
+<body>
+    
+    <!-- NAVBASR -->  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3"> <!-- p-3 navbar width -->  
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+              <span class="text-dark fs-7 fw-bold">AUXPACE </span>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Inicio -->   
+              <li class="nav-item" id="menu">
+                <a class="nav-link"  href="../index.html">Inicio</a>
+              </li>
+          <!-- Nosotros -->   
+              <li class="nav-item" id="menu">
+                <a class="nav-link" href="../Nosotros/nosotros.html">Nosotros</a>
+              </li>
+          <!-- Servicios --> 
+              <li class="nav-item" id="menu">
+                <a class="nav-link" href="../Servicios/servicios.html">Servicios</a>
+              </li>
+          <!-- Contactanos --> 
+              <li class="nav-item" id="menu">
+                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" >
+              <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-dark btn-dark-outline-success" type="submit" id="search">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- CONTACTANOS -->  
+  <section class="w-50 mx-auto text-center pt-4" id="Proximos">
+    <h5 class="p-3 fs-2"> <span class="text-dark"> ¿Tienes dudas? Habla con nosotros </span></h5>
+  </section>
+  <section class=" container w-100 mx-auto pt-2">
+      <form>
+        <div class="mb-3">
+          <label for="exampleInputName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="exampleInputName" placeholder="Introduce tu nombre">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputApellidos" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="exampleInputApellidos" placeholder="Introduce tus apellidos">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputUsuario" class="form-label">Nombre de usuario</label>
+          <input type="text" class="form-control" id="exampleInputUsuario" placeholder="Introduce tu nombre de usuario">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu email">
+          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputTelefono" class="form-label" >Telefono</label>
+          <input type="number" class="form-control" id="exampleInputTelefono" placeholder="Introduce tu número de teléfono">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Deseo recibir correos y notificaciones por parte de AuxPace</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+  </section>
+
+
+</body>
+</html>
