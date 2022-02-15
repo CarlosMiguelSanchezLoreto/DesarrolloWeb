@@ -9,6 +9,8 @@
     <link href="../BootStrap/bootstrap.min.css" rel="stylesheet">
 
     <title>Nosotros</title>
+
+    <script src="contacto.js"></script>
 </head>
 <body>
     
@@ -47,10 +49,10 @@
           </div>
         </div>
       </nav>
-
+      
       <!-- CONTACTANOS -->  
   <section class="w-50 mx-auto text-center pt-4" id="Proximos">
-    <h5 class="p-3 fs-2"> <span class="text-dark"> ¿Tienes dudas? Habla con nosotros </span></h5>
+    <h5 class="p-3 fs-2"> <span class="text-dark"> Contáctanos </span></h5>
   </section>
   <section class=" container w-100 mx-auto pt-2">
       <form>
@@ -67,22 +69,29 @@
           <input type="text" class="form-control" id="exampleInputUsuario" placeholder="Introduce tu nombre de usuario">
         </div>
         <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Introduce tu email">
+          <label for="exampleInputEmail" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Introduce tu email">
           <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="mb-3">
           <label for="exampleInputTelefono" class="form-label" >Telefono</label>
           <input type="number" class="form-control" id="exampleInputTelefono" placeholder="Introduce tu número de teléfono">
         </div>
+        <div class="mb-3">
+          <label for="exampleInputMensaje" class="form-label">Mensaje</label>
+          <input type="text" class="form-control" id="exampleInputMensaje" placeholder="Introduce tu inquietud">
+        </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
           <label class="form-check-label" for="exampleCheck1">Deseo recibir correos y notificaciones por parte de AuxPace</label>
         </div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="button"  onclick="Mensaje()">Enviar</button>
+        
       </form>
+      
   </section>
 
+  
 
 </body>
 </html>
